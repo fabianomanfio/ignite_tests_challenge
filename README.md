@@ -61,7 +61,6 @@ _______________________________________________________________________________
 - [x] should not be able to get an statement operation if statement does not exists
 
 ________________________________________________________________________________
-https://github.com/JMoitta/desafio-transferencias-com-a-finapi/blob/main/src/database/migrations/1643248095293-AddColunmSenderIdInProduct.ts
 
 <h1>Desafio Transferências com a FinAPI</h1>
 
