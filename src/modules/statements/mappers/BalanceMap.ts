@@ -7,18 +7,26 @@ export class BalanceMap {
       amount,
       description,
       type,
+      sender_id,
       created_at,
       updated_at
-    }) => (
-      {
+    }) => {
+      const statements = {
         id,
         amount: Number(amount),
         description,
         type,
+        sender_id,
         created_at,
         updated_at
       }
-    ));
+      if (!sender_id) {
+        delete statements.sender_id
+      }
+
+      return statements
+    }
+    );
 
     return {
       statement: parsedStatement,
