@@ -67,15 +67,15 @@ ________________________________________________________________________________
 <h2>Implementações</h2>
 
 <h3>Database / Entities</h3>
-- [x] na tabela 'statements' alterar coluna 'type'  - adicionar enum 'transfer'
-- [x] na tabela 'statements' criar a coluna 'sender_id'
+- [x] na tabela 'statements' alterar coluna 'type'  - adicionar enum 'transfer' />
+- [x] na tabela 'statements' criar a coluna 'sender_id' />
 - [x] na tabela 'statements' criar foreignKey 'sender_id' => 'users'
 
 <h3>Create transfer</h3>
-- [x] implemntar funcionalidade de transferência de fundos entre contas
-- [x] não deve ser possível transferir valores superiores ao disponível no saldo de uma conta
-- [x] o balance deverá considerar também todos os valores transferidos ou recebidos através de transferências ao exibir o saldo de um usuário
-- [x] criar a rota: post('/transfers/:user_id'
+- [x] implemntar funcionalidade de transferência de fundos entre contas />
+- [x] não deve ser possível transferir valores superiores ao disponível no saldo de uma conta />
+- [x] o balance deverá considerar também todos os valores transferidos ou recebidos através de transferências ao exibir o saldo de um usuário />
+- [x] criar a rota: post('/transfers/:user_id' />
 - [x] implementar testes
 
 
